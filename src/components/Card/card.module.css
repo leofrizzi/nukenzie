@@ -1,0 +1,82 @@
+.verde {
+    background-color: #F8F9FA;
+    border-left: 5px solid #03B898;
+    width: 351px;
+    height: 156px;
+    max-width: 100%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.cinza {
+    background-color: #F8F9FA;
+    border-left: 5px solid #E9ECEF;
+    width: 351px;
+    max-width: 100%;
+    border-radius: 4px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+li > h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529
+}
+
+li > p {
+    color: #343A40;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+li > span {
+    color: #212529;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.defaultbutton {
+    height: 40px;
+    width: 58px;
+    border-radius: 8px;
+    background-color: #E9ECEF;
+    border: solid 1.4px #E9ECEF;
+    cursor: pointer;
+}
+
+.defaultbutton:hover {
+    color: #ffff;
+    background-color: #343A40;
+    border: solid 1.4px#343A40;
+}
+
+@media(min-width:800px) {
+
+    .cardGreen,
+    .cardGrey {
+        width: 100%;
+        height: 87px;
+        position: relative;
+        justify-content: center;
+        gap: 1rem
+    }
+
+    li>button {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+    }
+
+    li>span {
+        position: absolute;
+        right: 10px;
+        top: 15px
+    }
+}

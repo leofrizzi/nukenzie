@@ -1,0 +1,87 @@
+form {
+    border: 1px solid #00000033;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    height: 434px;
+    padding: 2.5rem;
+    gap: 1rem;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+form>input {
+    width: 314px;
+    height: 48px;
+    background-color: #F8F9FA;
+    padding: 0 1rem;
+    border-radius: 8px;
+    border: 2px solid #F8F9FA;
+    outline: none;
+    max-width: 88%;
+}
+
+form>input:hover {
+    background-color: #F8F9FA;
+    border: 1.2px solid #212529;
+}
+
+select {
+    width: 347px;
+    height: 52px;
+    background-color: #F8F9FA;
+    padding: 0 1rem;
+    border-radius: 8px;
+    border: 2px solid #F8F9FA;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #868E96;
+    max-width: 102%;
+}
+
+select:hover {
+    background-color: #F8F9FA;
+    border: 1.2px solid #212529;
+}
+
+form>input::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #868E96;
+}
+
+form>input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+label {
+    color: #212529;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+form>button {
+    background-color: #FD377E;
+    border: 2px solid #FD377E;
+    width: 348px;
+    max-width: 102%;
+    height: 48px;
+    border-radius: 8px;
+    padding: 13px 20px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+form>p {
+    color: #868E96;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+form>button:hover {
+    background-color: #E34981;
+    border: 2px solid #E34981;
+}
